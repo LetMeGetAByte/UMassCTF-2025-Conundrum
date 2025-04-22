@@ -1,8 +1,11 @@
 # UMassCTF 2025 Conundrum
 ### How to build (Only tested on linux)
 gcc -o pack pack.c
+
 gcc -o chall chall.c
+
 ./pack chall chall_enc
+
 make
 
 ### Hardening Concepts and Documentation
